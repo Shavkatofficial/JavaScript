@@ -50,6 +50,7 @@ function render(array) {
             newH4.textContent = item.type;
             newH5.textContent = `Weight: ${item.weight}`;
             newH6.textContent = `Height: ${item.height}`;
+            newHref1.style = "display:none";
             newBtn1.style = "display:none";
             newBtn2.style = "display:none";
         } else {
