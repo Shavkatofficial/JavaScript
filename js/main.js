@@ -60,7 +60,7 @@ function render(array) {
             newH6.textContent = item.imdb_rating;
             newHref1.href = `https://www.youtube.com/watch?v=${item.ytid}`;
             newHref1.textContent = "Watch trailer";
-            newBtn2.href ="Bookmark";
+            newBtn1.textContent ="Bookmark";
             newBtn2.textContent = "More info";
         }
         newImg.width = "200";
@@ -69,6 +69,7 @@ function render(array) {
         newLi.appendChild(newH4);
         newLi.appendChild(newH5);
         newLi.appendChild(newH6);
+        newLi.appendChild(newHref1);
         newLi.appendChild(newBtn1);
         newLi.appendChild(newBtn2);
 
