@@ -49,7 +49,7 @@ function render(array) {
             newH3.textContent = item.name;
             newH4.textContent = item.type;
             newH5.textContent = `Weight: ${item.weight}`;
-            newH6.textContent = `Weight: ${item.height}`;
+            newH6.textContent = `Height: ${item.height}`;
             newBtn1.style = "display:none";
             newBtn2.style = "display:none";
         } else {
